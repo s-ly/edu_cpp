@@ -3,13 +3,8 @@
 #include "func.h"
 
 int main() {
-  Arr arr;
-  arr.arrPrint();
-  arr.arrAdd(5);
-  arr.arrPrint();
-
-  Arr arr2(arr);
-  arr2.arrPrint();
+  Arr2D ar;
+  ar.Arr2DPrint();
 
   return 0;
 }
